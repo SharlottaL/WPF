@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:HomeGrid"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800"  Icon="steak_meat_beefsteak_chop_food_barbecue_icon_207978.ico">
+        Title="MainWindow" Height="450" Width="800" Icon="/steak_meat_beefsteak_chop_food_barbecue_icon_207978.ico">
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="100"/>
