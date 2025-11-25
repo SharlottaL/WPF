@@ -1,0 +1,51 @@
+﻿<Window x:Class="HomeGrid.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:HomeGrid"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800"  Icon="steak_meat_beefsteak_chop_food_barbecue_icon_207978.ico">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="100"/>
+            <ColumnDefinition Width="6*"/>
+            <ColumnDefinition Width="2*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50"/>
+            <RowDefinition/>
+            <RowDefinition Height="25"/>
+        </Grid.RowDefinitions>
+        <Rectangle x:Name="rectangle" Height="NaN" Margin="0,0,0,0" VerticalAlignment="Stretch" Width="102" Grid.Row="1">
+            <Rectangle.Fill>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FF080101" Offset="0.13"/>
+                    <GradientStop Color="#FFC59292" Offset="1"/>
+                </LinearGradientBrush>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Rectangle Grid.Column="1" HorizontalAlignment="Center" Height="359" Grid.Row="1" Stroke="Black" VerticalAlignment="Center" Width="525">
+            <Rectangle.Fill>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FF080101" Offset="0.13"/>
+                    <GradientStop Color="#FF844141" Offset="1"/>
+                </LinearGradientBrush>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Rectangle Grid.Column="2" HorizontalAlignment="Center" Height="359" Grid.Row="1" Stroke="Black" VerticalAlignment="Center" Width="175">
+            <Rectangle.Fill>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="#FFAD2222" Offset="1"/>
+                    <GradientStop Color="#FF080101" Offset="0.13"/>
+                </LinearGradientBrush>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Rectangle HorizontalAlignment="Left" Height="50" Stroke="Black" VerticalAlignment="Center" Width="800" Grid.ColumnSpan="3" Fill="#FF080101"/>
+        <Rectangle HorizontalAlignment="Center" Height="25" Grid.Row="2" Stroke="Black" VerticalAlignment="Center" Width="525" Grid.Column="1" Fill="#FF844141"/>
+        <Rectangle Grid.Column="2" HorizontalAlignment="Center" Height="25" Grid.Row="2" Stroke="Black" VerticalAlignment="Center" Width="175" Fill="#FFAD2222"/>
+        <Rectangle HorizontalAlignment="Center" Height="25" Grid.Row="2" Stroke="Black" VerticalAlignment="Center" Width="102" Fill="#FFC59292"/>
+
+    </Grid>
+</Window>
