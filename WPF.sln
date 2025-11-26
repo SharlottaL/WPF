@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Grid", "Grid\Grid.csproj", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomeGrid", "HomeGrid\HomeGrid.csproj", "{BCCEA796-A798-4D4E-9351-7E480F805731}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MenuBar", "MenuBar\MenuBar.csproj", "{EE150DD8-B259-450E-8DA3-E566B0D2525F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{BCCEA796-A798-4D4E-9351-7E480F805731}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BCCEA796-A798-4D4E-9351-7E480F805731}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BCCEA796-A798-4D4E-9351-7E480F805731}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE150DD8-B259-450E-8DA3-E566B0D2525F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE150DD8-B259-450E-8DA3-E566B0D2525F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE150DD8-B259-450E-8DA3-E566B0D2525F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE150DD8-B259-450E-8DA3-E566B0D2525F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
